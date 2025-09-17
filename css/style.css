@@ -1,0 +1,26 @@
+:root {
+  --font-kanit: "Kanit", sans-serif;
+  --color-white: #ffffff;
+  --color-gray-light: #f8f8f8;
+  --color-gray-dark: #cccccc;
+  --color-blue: #0d7084;
+  --color-blue-alpha: #0d70840a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+  width: 100%;
+  max-width: 1920px;
+  min-height: calc(100vh - 100px);
+  margin: 0 auto;
+  padding: 2em;
+  background-color: var(--color-gray-light);
+}/*# sourceMappingURL=style.css.map */

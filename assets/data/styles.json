@@ -1,0 +1,19 @@
+{
+  "header": "display: flex; align-items: center; width: 100%; max-width: 1920px; min-height: 100px; margin: 0 auto; padding: 1em 2em; box-shadow: 0 5px 15px var(--color-gray-dark);",
+  "logo-container": "display: flex; align-items: center; column-gap: 1em;",
+  "logo-image": "max-width: 50px; max-height: 50px; aspect-ratio: 1; user-select: none; -webkit-user-select: none; -webkit-user-drug: none;",
+  "logo-caption": "font-family: var(--font-kanit); font-weight: 700; font-size: 22px; color: var(--color-blue); user-select: none; -webkit-user-select: none;",
+  "page-heading": "font-family: var(--font-kanit); font-weight: 700; font-size: 35px; color: var(--color-blue); user-select: none; -webkit-user-select: none;",
+  "converter-wrapper": "width: 100%; max-width: 900px; height: 490px; padding: 1.5em; background-color: var(--color-blue-alpha); border-radius: 10px; box-shadow: -13px 20px 6px var(--color-blue); overflow-y: auto;",
+  "currency-rates-container": "display: flex; flex-direction: column; row-gap: 1.5em;",
+  "rate-switch-container": "display: flex; flex-direction: column; row-gap: 1em;",
+  "rate-switch-label": "font-family: var(--font-kanit); font-weight: 500; font-size: 27px; color: var(--color-blue); user-select: none; -webkit-user-select: none;",
+  "rate-switch": "font-family: var(--font-kanit); font-weight: 500; font-size: 16px; color: var(--color-white); width: 100%; max-width: 400px; padding: 0.7em; border: none; outline: none; overflow: hidden; background-color: var(--color-blue); border-radius: 7px; user-select: none; -webkit-user-select: none; cursor: pointer;",
+  "select-option": "font-family: var(--font-kanit); font-weight: 500; font-size: 16px; color: var(--color-white);",
+  "currencies-container": "display: flex; flex-direction: column; row-gap: 1em;",
+  "currency-container": "display: flex; justify-content: space-between; align-items: center; padding: 1em; background-color: var(--color-gray-light); border-radius: 15px;",
+  "currency-card-left": "display: flex; align-items: center; column-gap: 1em",
+  "flag-image": "width: 100%; max-width: 35px; max-height: 35px; aspect-ratio: 1; user-select: none; -webkit-user-select: none; -webkit-user-drag: none;",
+  "currency-name": "font-family: var(--font-kanit); font-weight: 500; font-size: 20px; color: var(--color-blue); user-select: none; -webkit-user-select: none;",
+  "currency-rate": "font-family: var(--font-kanit); font-weight: 500; font-size: 20px; color: var(--color-blue); user-select: none; -webkit-user-select: none;"
+}

@@ -1,0 +1,30 @@
+{
+  "logo": {
+    "src": "/assets/images/logo.png",
+    "alt": "CoinShift logo, featuring a stylized coin with a currency exchange symbol, representing the currency converter application",
+    "elementName": "logo-image"
+  },
+
+  "flags": [
+    {
+      "src": "/assets/icons/flags/usa-flag.png",
+      "alt": "American flag, featuring thirteen horizontal red and white stripes with a blue canton containing fifty white stars, representing the United States.",
+      "elementName": "flag-image",
+      "currencyName": "USD"
+    },
+
+    {
+      "src": "/assets/icons/flags/europe-flag.png",
+      "alt": "European Union flag, featuring a circle of twelve gold stars on a blue background, representing the unity of European countries.",
+      "elementName": "flag-image",
+      "currencyName": "EUR"
+    },
+
+    {
+      "src": "/assets/icons/flags/russia-flag.png",
+      "alt": "Russian flag, featuring three horizontal stripes of white, blue, and red, representing the Russian Federation.",
+      "elementName": "flag-image",
+      "currencyName": "RUB"
+    }
+  ]
+}

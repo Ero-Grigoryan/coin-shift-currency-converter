@@ -1,0 +1,38 @@
+{
+  "rateSwitchOptions": [
+    {
+      "optionName": "Buy",
+      "optionValue": "buy",
+      "elementName": "selectOption"
+    },
+
+    {
+      "optionName": "Sell",
+      "optionValue": "sell",
+      "elementName": "selectOption"
+    }
+  ],
+
+  "currencies": [
+    {
+      "id": 1,
+      "currencyName": "USD",
+      "buyRate": 380,
+      "sellRate": 385
+    },
+
+    {
+      "id": 2,
+      "currencyName": "EUR",
+      "buyRate": 447,
+      "sellRate": 459
+    },
+
+    {
+      "id": 3,
+      "currencyName": "RUB",
+      "buyRate": 4.5,
+      "sellRate": 4.78
+    }
+  ]
+}

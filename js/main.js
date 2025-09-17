@@ -1,10 +1,12 @@
 "use strict";
 
 import DomBuilder, { createRootElement } from "./modules/DomBuilder.module.js";
+import EventHandler from "./modules/EventHandler.module.js";
 import fetchData from "./utils/fetchData.js";
 
 const rootElement = createRootElement();
 const domBuilder = new DomBuilder(rootElement);
+const eventHandler = new EventHandler(domBuilder);
 
 await domBuilder.loadStyles("/assets/data/styles.json");
 
@@ -56,3 +58,4 @@ domBuilder.appendElement(converterWrapper, currencyRatesContainer, converterCont
 domBuilder.appendElement(domBuilder.rootElement, converterWrapper);
 
 domBuilder.renderRoot();
+eventHandler.initializeEventListeners();

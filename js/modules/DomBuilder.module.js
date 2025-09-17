@@ -108,9 +108,13 @@ export default class DomBuilder {
     return containers;
   }
 
-  createSpan(text, elementName) {
+  createSpan(text, elementName, additionalData = {}) {
     const span = document.createElement("span");
     span.dataset.elementName = elementName;
+
+    if (Object.keys(additionalData).includes("currencyName")) {
+      span.dataset.currencyName = additionalData.currencyName;
+    }
 
     span.innerText = text;
 
@@ -173,7 +177,9 @@ export default class DomBuilder {
       );
       const currencyCaption = this.createSpan(currency.currencyName, "currency-name");
 
-      const currencyRate = this.createSpan(currency[selectedOption], "currency-rate");
+      const currencyRate = this.createSpan(currency[selectedOption], `currency-rate`, {
+        currencyName: currency.currencyName,
+      });
 
       this.appendElement(currencyLeftContainer, currencyFlagImage, currencyCaption);
 

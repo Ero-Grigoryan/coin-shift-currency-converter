@@ -191,6 +191,19 @@ export default class DomBuilder {
     return currencyCards;
   }
 
+  createInput(type, name, placeholder, elementName) {
+    const input = document.createElement("input");
+    input.setAttribute("type", type);
+    input.setAttribute("name", name);
+    input.setAttribute("placeholder", placeholder);
+    input.setAttribute("defaultValue", 0);
+    input.dataset.elementName = elementName;
+
+    this.applyStyles(input);
+
+    return input;
+  }
+
   appendElement(parent, ...childList) {
     parent.append(...childList);
   }

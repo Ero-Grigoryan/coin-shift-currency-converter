@@ -3,13 +3,33 @@
     {
       "optionName": "Buy",
       "optionValue": "buy",
-      "elementName": "selectOption"
+      "elementName": "select-option"
     },
 
     {
       "optionName": "Sell",
       "optionValue": "sell",
-      "elementName": "selectOption"
+      "elementName": "select-option"
+    }
+  ],
+
+  "currencySwitchOptions": [
+    {
+      "optionName": "USD",
+      "optionValue": "usd",
+      "elementName": "select-option-currency"
+    },
+
+    {
+      "optionName": "EUR",
+      "optionValue": "eur",
+      "elementName": "select-option-currency"
+    },
+
+    {
+      "optionName": "RUB",
+      "optionValue": "rub",
+      "elementName": "select-option-currency"
     }
   ],
 

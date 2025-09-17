@@ -26,5 +26,11 @@
       "elementName": "flag-image",
       "currencyName": "RUB"
     }
-  ]
+  ],
+
+  "switchIcon": {
+    "src": "/assets/icons/switch.png",
+    "alt": "Switching icon, depicting two arrows forming a circular pattern, used to toggle the direction of currency conversion.",
+    "elementName": "switch-icon"
+  }
 }
